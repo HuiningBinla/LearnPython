@@ -1,0 +1,11 @@
+# 定义两个变量，PythonScore 、CScore
+PythonScore = int(input("请输入分数："))
+CScore = int(input("请输入分数："))
+
+if PythonScore >= 60 or CScore >=60:
+	print("恭喜，考试及格！")
+	
+else:
+	print("太遗憾，没能及格，还得继续努力！")
+	
+	
