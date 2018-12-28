@@ -1,0 +1,13 @@
+# 需求：
+# 超市买苹果
+# 定义三个变量，重量，单价，金额
+
+# weight = int(input("请输入重量："))
+# price = int(input("请输入单价："))
+
+weight = float(input("请输入重量："))
+price = float(input("请输入单价："))
+
+money = weight * price
+print(money)
+
