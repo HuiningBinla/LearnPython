@@ -1,0 +1,7 @@
+# 定义一个重复计数次数计数器
+i = 1
+while i <= 5:
+	print("Hello Python")
+	
+	i += 1
+print("循环结束后的 i = % d" % i)
