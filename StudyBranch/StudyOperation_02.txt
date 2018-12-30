@@ -1,0 +1,7 @@
+# 定义一个 bool 型变量，判断是否是本公司员工
+
+# is_employee = input("请刷卡：")
+is_employee = False
+# 如果不是，提示不许进入
+if not is_employee:
+	print("非本公司人员，请勿入内")
