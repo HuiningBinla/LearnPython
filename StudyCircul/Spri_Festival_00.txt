@@ -1,0 +1,10 @@
+EvSprinFestival = input("姐夫去不去：")
+
+if EvSprinFestival == "去":
+	print("欢迎欢迎，热泪欢迎！")
+	print("春节快乐，阖家欢乐，猪年大吉！")
+	
+else:
+	print("祝叔叔阿姨，姐夫还有其他亲朋好友")
+	print("阖家幸福，猪年 hong hong hong！")
+	
