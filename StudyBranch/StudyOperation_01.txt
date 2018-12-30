@@ -3,9 +3,14 @@
 python_score = float(input("请输入成绩："))
 c_score = float(input("请输入成绩："))
 
-#判断成绩
+# 判断成绩
+
 if python_score > 60 or c_score > 60:
 	print("考试通过")
+	
+elif python_score == 60 and c_score == 60:
+	print("考试双通过，你很优秀哦！")
+	
 else:
 	print("考试失败，继续努力")
 	
