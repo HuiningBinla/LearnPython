@@ -27,5 +27,16 @@ temp_list = ["孙悟空","猪二哥","沙师弟"]
 name_list.extend(temp_list)
 
 # 4. 删除
+# remove 方法可以从列表中删除指定的数据
+name_list.remove("wangwu")
+# pop 方法默认可以把列表中最后一个元素删除
+name_list.pop() 
+# pop 方法可以指定要删除元素的索引
+name_list.pop(3)
+# clear 方法可以清空列表
+name_list.clear()
 
 print(name_list)
+
+
+
