@@ -14,9 +14,15 @@ print(name_list.index("lisi"))
 name_list[1] = "李四"
 # list assignment index out of range
 # 列表指定的索引超出范围，程序会报错！
-name_list[3] = "王小二"
+# name_list[3] = "王小二"
 
 # 3. 增加
+# append 方法可以在列表的末尾追加数据
+name_list.append("王小二")
+
+name_list.insert(1,"小美眉")
+
+
 
 # 4. 删除
 
